@@ -1,0 +1,22 @@
+.contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: antiquewhite;
+}
+
+.caja {
+  background-color: #f2efed;
+  padding: 20px 30px;
+  border-radius: 6px;
+  max-width: 500px;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+p {
+  font-size: 16px;
+}

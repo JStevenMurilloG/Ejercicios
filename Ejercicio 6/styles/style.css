@@ -1,0 +1,39 @@
+.contenedor {
+  background-color: #93d9e9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  gap: 45px;
+}
+
+.tarjeta {
+  background-color: white;
+  display: flex;
+  width: 250px;
+  height: 500 px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+  height: 480px;
+  border: 2px solid #000;
+  border-radius: 12px;
+}
+
+.headerCard {
+  background-color: salmon;
+  border: 2 px solid #000;
+  border-radius: 12px;
+  width: 100%;
+}
+
+.buttonCard {
+  display: flex;
+  margin-bottom: 20px;
+  height: 40px;
+  width: 100px;
+  justify-content: center;
+  align-items: center;
+}
